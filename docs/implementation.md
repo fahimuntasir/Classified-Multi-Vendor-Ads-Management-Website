@@ -6,16 +6,16 @@ The Classified Multi-Vendor Ads Management Website was submitted as an undergrad
 
 ## 2. Architecture and provenance
 
-The website files available for review show that the site uses **WordPress, the Classima theme, and related plugins**. The thesis discusses HTML, CSS, JavaScript, Bootstrap, PHP, and Laravel as well. Since the reviewed website files are WordPress-based, I have not described the project as a custom Laravel backend.
+Review of the available implementation files points to a **WordPress website using the Classima theme and theme/plugin functionality**. The original thesis also discusses an HTML/CSS/JavaScript, Bootstrap, PHP, and Laravel technology stack. This should be understood as a distinction between the thesis's written description and the implementation artifacts inspected; it should **not** be taken as proof that a custom Laravel backend was implemented.
 
-Based on the files and screenshots available:
+The available evidence supports the following characterization:
 
 - **Platform:** WordPress, PHP-based CMS.
 - **Presentation layer:** Classima classified-listings theme with website styling and theme templates.
 - **Features:** Theme/plugin-enabled listings, user registration, filtering, and account workflows.
 - **Data persistence:** WordPress-managed database and associated theme/plugin data structures; a precise live schema is not supplied in this repository.
 
-I have not listed specific software versions because I could not confirm them from the files available.
+No exact WordPress, Classima, plugin, PHP, or database version is asserted without verifiable configuration data.
 
 ## 3. Visible functional flows
 
@@ -24,7 +24,7 @@ I have not listed specific software versions because I could not confirm them fr
 3. **Submit an ad:** A user selects a category and enters product information, condition, price, and description.
 4. **Manage ads:** The account area displays a user's listings and provides management actions.
 
-These features are documented from the original screenshots. I have not retested the complete website.
+These are functional observations from saved screenshots, not an assertion that every production path was independently retested.
 
 ## 4. Diagrams and interpretation
 
@@ -34,11 +34,11 @@ These features are documented from the original screenshots. I have not retested
 - **DFD Level 1** decomposes key management processes.
 - **DFD Level 2** further expands management functions.
 
-These are diagrams from the thesis, not diagrams of the exact WordPress database or plugin code. They can be viewed in the [README](../README.md#system-design-diagrams).
+The diagrams are original academic planning/design figures and **do not claim to document the exact internal WordPress database tables or plugin code**. See the [README](../README.md#system-design-diagrams) to view them.
 
 ## 5. Source availability and limitations
 
-I have included the thesis, screenshots, and design diagrams to document the project. To run the website again, I would need a WordPress installation, a properly licensed theme, compatible plugins, the website database, and hosting details. Those files are not included here. Private information, passwords, and licensed third-party packages should not be uploaded to a public repository.
+This repository intentionally focuses on academic evidence: original thesis, screenshots, and design diagrams. A complete runnable website would also require an authorized WordPress installation, licensed theme files, compatible plugins, configuration, database content, and hosting environment. Those resources are **not included**. Avoid committing sensitive configuration, credentials, private user data, licensed vendor archives, or a full site backup to a public repository.
 
 ## 6. Thesis citation
 
