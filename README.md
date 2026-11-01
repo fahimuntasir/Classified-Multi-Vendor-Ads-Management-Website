@@ -4,13 +4,11 @@
 
 **Author:** Muntasir Md Fahim  
 **Project type:** Classified advertising / multi-vendor listing website  
-**Academic deliverable:** Undergraduate thesis and documented website implementation
+**Academic deliverable:** Undergraduate thesis, system design, and website documentation
 
 ## Project overview
 
 For my undergraduate graduation project, I worked on a classified ads website where visitors could browse and search listings, while registered users could post and manage their ads. This repository includes screenshots of the website, the system diagrams from my thesis, and the final report.
-
-> **A note on the implementation:** My thesis discusses PHP/Laravel and Bootstrap, but the website files available for review show a **WordPress implementation using the Classima theme and plugins**. I have documented the website accordingly rather than presenting it as a custom Laravel application. The original thesis PDF is included without changes.
 
 ## Demonstrated features
 
@@ -33,7 +31,7 @@ For my undergraduate graduation project, I worked on a classified ads website wh
 
 ## System design diagrams
 
-I prepared these diagrams for the thesis to explain the planned users, data, and processes. They do not represent the internal structure of WordPress or its plugins.
+I prepared these diagrams for the thesis to explain the planned users, data, and processes. They show the proposed system design rather than the internal structure of any third-party software.
 
 ### Use case diagram
 ![Use case diagram](diagrams/use-case-diagram.jpg)
@@ -55,6 +53,7 @@ I prepared these diagrams for the thesis to explain the planned users, data, and
 ```text
 .
 ├── README.md
+├── .gitignore
 ├── Undergraduate_Thesis.pdf
 ├── docs/
 │   └── implementation.md
@@ -80,8 +79,8 @@ I prepared these diagrams for the thesis to explain the planned users, data, and
 
 ## Reproducibility and scope
 
-This repository is a record of my undergraduate project, not a complete website installation. It does not include the WordPress files, website database, paid theme or plugin packages, or hosting configuration needed to run the site. A live demo is not currently provided.
+This repository documents the undergraduate project rather than providing a runnable website. It includes the thesis, diagrams, and saved screenshots, but not the full application files, database, or hosting configuration. A live demo is not currently available. The technical implementation and its relationship to the thesis design are explained in the [implementation notes](docs/implementation.md).
 
 ## Attribution
 
-I completed this undergraduate project at **Hubei University of Technology in 2023**. WordPress, Classima, and the third-party plugins belong to their respective developers. I do not claim to have written their underlying code.
+I completed this undergraduate graduation project at **Hubei University of Technology in 2023**. Any third-party software or assets used in the website remain the property of their respective authors. This repository documents my project work and does not claim authorship of third-party source code.
