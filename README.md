@@ -10,6 +10,17 @@
 
 For my undergraduate graduation project, I worked on a classified ads website where visitors could browse and search listings, while registered users could post and manage their ads. This repository includes screenshots of the website, the system diagrams from my thesis, and the final report.
 
+## Technologies described in the thesis
+
+The original thesis describes the following technology stack for the website's design and development:
+
+- **Front end:** HTML, CSS, JavaScript, and Bootstrap 4
+- **Back end:** PHP and the Laravel framework
+- **Database:** MySQL, with phpMyAdmin discussed for database administration
+- **Development and design tools:** Visual Studio Code, Figma, and Adobe Photoshop
+
+These technologies are listed in the 2023 thesis. This repository contains the report, diagrams, and saved website screenshots; it does not include a complete runnable Laravel application. See the [technical notes](docs/implementation.md) for the distinction between the thesis design and the available website files.
+
 ## Demonstrated features
 
 - Classified advertisements and category-based browsing
@@ -74,7 +85,7 @@ I prepared these diagrams for the thesis to explain the planned users, data, and
 
 ## Documentation
 
-- [Website implementation and limitations](docs/implementation.md)
+- [Thesis technology stack and website notes](docs/implementation.md)
 - [Original undergraduate thesis (PDF)](Undergraduate_Thesis.pdf)
 
 ## Reproducibility and scope
